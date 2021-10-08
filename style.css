@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(188,67,196,0.6871790952709209) 0%, rgba(255,0,237,1) 100%);
+
+}
+
+footer {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+ul {
+    margin-left: -35px;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer ul li {
+    display: flex;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+footer ul li:hover {
+    transform: scale(1.5);
+}
